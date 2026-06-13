@@ -8,19 +8,29 @@ hr for horizontal line
 href="link" for link
 src="link" for image
 _blank for opening link in new tab
-_target for opening link in new tab
+ target for opening link in new tab
 <a href="link" target="_blank">Link Text</a>
 < img scr="link" alt="description of image">
+
+html entity //special charaters
+just goolglr
+
 
 
 css
 <style></style> for adding css in html document
+
 background-color:color name;          for background color
 color:color name;                     for text color
 
-font-size:size in px; for font size
-font-weight:normal;                   for normal font weight
-font-weight:bold;                     for bold font weight
+TEXT STYLES
+font-size:size in px;                  for font size
+font-weight: normal;                   for normal font weight
+font-weight: bold;                     for bold font weight
+font-family: Arial                     for different fonts style
+line-height: sizepx                    to prove space between words in a sentences.
+text-align: center                     to align text in <center>
+
 
 
 border-radius: size in px;            for border radius
@@ -34,9 +44,9 @@ width: size in px;                    for width
 
 text-align:left;     or 
 text-align:center; 
-or text-align:right;                  for text alignment
+or text-align:right;                   for text alignment
 
-cursor:pointer;                   for changing cursor to pointer when hovering over element
+cursor:pointer;                        for changing cursor to pointer when hovering over element
 
 margin: 0 auto;                        for center aligning block element
 margin: size in px;                    for adding margin to element
@@ -44,7 +54,12 @@ margin-top: size in px;                for adding margin to top of element
 margin-bottom: size in px;             for adding margin to bottom of element
 margin-left: size in px;               for adding margin to left of element
 margin-right: size in px;              for adding margin to right of element
-display: block; 
+or 
+margin:  toppx rightpx  bottompx leftpx;
+
+
+padding: sizepx;                       used to provide space inside the text where as margin is used to provide outside the text;                           
+
 class in css
 to apply same style to multiple elements we can use class in css
 to create a class we use .classname in css and to apply that class to an element we use class="classname" in html element   
@@ -55,9 +70,12 @@ fr example
   }
 </style>
 
- display: flex;  used to put all the ites in one line
 
- align-items: center; works only when display: flex is used┌─────────────────────┐
+ display: block; 
+ display: flex;                          used to put all the items in one line;
+ 
+ align-items: center;                    works only when display: flex is used
+┌─────────────────────┐
 │Logo                 │
 │     Amazon          │
 │          Button     │
@@ -65,6 +83,19 @@ fr example
 ┌─────────────────────┐
 │ Logo Amazon Button  │
 └─────────────────────┘
-justify-content: space-between; only words display: flex;
-before:Logo Amazon ₹6999 Button
-after:Logo      Amazon      ₹6999      Button
+justify-content: space-between;               only words display: flex; 
+
+before: Logo Amazon ₹6999 Button
+after:  Logo      Amazon      ₹6999      Button
+
+
+
+hover,transitions,shadows
+
+.classname:hover{} toadd colors when clicke or when the cursor is ,overs toward specific element 
+.classname:active{}
+
+ box-shadow: 0px 0px 0px rgba(0,0,0,0.15)
+ tansition: opacity time;
+
+ 
