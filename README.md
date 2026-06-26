@@ -1,4 +1,4 @@
-x# HTML, CSS & JavaScript
+# HTML, CSS & JavaScript
 
 This repository contains projects and exercises created while learning HTML, CSS, and JavaScript.
 
