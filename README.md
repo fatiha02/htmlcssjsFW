@@ -13,7 +13,6 @@ CSS is used to style and format web pages. It controls colors, fonts, spacing, l
 ### JavaScript
 JavaScript is a programming language used to add interactivity and dynamic functionality to websites. It enables features such as user interactions, form validation, animations, DOM manipulation, and communication with web servers.
 
-## Skills Covered
 
 - Semantic HTML
 - CSS Selectors and Styling
